@@ -40,9 +40,16 @@ def ingresar_clave():
         print("La frase secreta ingresada es correcta")
     else:
         print("La frase secreta ingresada es incorrecta")
+        
+def stock_zapatillas():
+    if (20-len(stock))>0:
+       
+        stock.append(nombre_valido)
+        print("Reserva exitosa.")
+    else:
+        print("El stock de zapatillas esta completo.")
 
-def numero_stock():
-    
+stock=[]    
         
 menu_inicial()
     
